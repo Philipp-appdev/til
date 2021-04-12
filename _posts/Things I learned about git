@@ -7,3 +7,4 @@ The most important git commands are:
 - Git add -A - adds all changes to staging area
 - Git commit -a -m - commits all additions and modifications
 - Git push - pushes commited changes to github
+
