@@ -1,5 +1,7 @@
-layout	title
-post Things I learned from The Ruby Koans
+---
+layout: post
+title: Things I learned about git
+---
 
 The most important git commands are:
 - Git checkout - b <name-of-branch> - creates new branch
