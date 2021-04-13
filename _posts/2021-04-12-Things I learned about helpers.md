@@ -4,7 +4,7 @@ Helper methods:
   - Resources :routes # creates all 7 CRUD routes
 - Forms
   - <%= form_with(url: movies_path) do %>  <% end %>
-    - OR: <%= form_with(model: @movie, method: :patch) do |form| %>
+    - OR: "<%= form_with(model: @movie, method: :patch) do |form| %>"
   - Labels: <%= label_tag :title_box, "Title" %>
     - OR:  <%= form.label :title %>
   - Input text field: 
