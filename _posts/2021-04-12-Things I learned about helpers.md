@@ -1,7 +1,7 @@
 Helper methods:
 - Routes
   - Create flexible paths with: post "/movies" =>  "movies#create", as: :movies # movies_url and movies_path 
-  - Resources :routes # creates all 7 CRUD routes
+  - Resources :movies # creates all 7 CRUD routes
 - Forms
   - <%= form_with(url: movies_path) do %>  <% end %>
     - OR: "<%= form_with(model: @movie, method: :patch) do |form| %>"
