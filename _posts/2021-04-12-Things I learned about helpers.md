@@ -23,5 +23,5 @@ Helper methods:
   - Shorthand: def show /  @the_movie = Movie.find(params.fetch(:id))  /  end
   - Shorthand for create with nested params: 
     - movie_attributes = params.require(:movie).permit(:title, :description)
-    - @movie = Movie.new(movie_attributes)![image](https://user-images.githubusercontent.com/59834420/114497583-16abae00-9be8-11eb-9386-fd6040b17f71.png)
+    - @movie = Movie.new(movie_attributes)
 
